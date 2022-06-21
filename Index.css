@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gainsboro ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+h1.title {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 95px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 75px;
+    color: fuchsia;
+    opacity: 0.3;
+}
+
+form {
+    margin: auto;
+    max-width: 100%;
+    width: 600px;
+}
+
+.toDoInput {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    display: block;
+    width: 100%;
+}
+
+.toDoInput::placeholder {
+    color: lightgray;
+}
+
+
