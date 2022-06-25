@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: gainsboro ;
+    background-color: #EFF7FF ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
 }
@@ -14,8 +14,7 @@ h1.title {
     text-align: center;
     justify-content: center;
     padding-top: 75px;
-    color: fuchsia;
-    opacity: 0.3;
+    color: #558C8C;
 }
 
 form {
@@ -34,24 +33,24 @@ form {
 }
 
 .toDoInput::placeholder {
-    color: lightgray;
+    color: #82204A;
 }
 
 .todos {
-    background-color: lightcyan;
+    background-color: #457b9d;
     padding: 0;
     margin: 0;
     list-style-type: none;
 }
 
 .todos li {
-    border-top: 1px solid #b5b5b5;
+    border-top: 1px solid #E8DB7D;
     cursor: pointer;
     font-size: 1.5rem;
     padding: 1rem 2rem;
 }
 
 .todos li.completed {
-    color: #b5b5b5;
+    color: #231123;
     text-decoration: line-through;
 }
